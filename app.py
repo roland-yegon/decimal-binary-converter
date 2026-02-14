@@ -35,7 +35,7 @@ while True:
         try_again = input('Would you like to try again? (yes/no): ').lower()
 
     if try_again != 'yes':
-        print('Bye!!! You are welcomed to come again anytime.\n\n')
+        print('Bye!!! Come again anytime.\n\n')
         break
     else:
         continue
