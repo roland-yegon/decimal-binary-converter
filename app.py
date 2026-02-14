@@ -1,8 +1,8 @@
-"""A script that converts decimal numbers to binary."""
+"""A script that converts decimal numbers to bytes."""
 
 # Introduction text
 print('\n\n=====================================')
-print('Decimal to Binary Converter.')
+print('Decimal to Bytes Converter.')
 print('=====================================\n')
 
 while True:
@@ -25,7 +25,7 @@ while True:
         division_count += 1
 
     # Output the results
-    print(f'The binary number: {results[::-1]}\n')
+    print(f'The byte is: {results[::-1]}\n')
 
     # Try again
     choices = ['yes', 'no']
